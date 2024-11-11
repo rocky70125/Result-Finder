@@ -11,7 +11,7 @@ function values(){
             document.querySelector("#name").innerHTML = `Name: ${Name[i]}`;  
             document.querySelector("#rollNo").innerHTML = `Roll No: ${rollNo[i]}`;
             document.querySelector("#marks").innerHTML = `Marks: ${marks[i]}`;
-            let Percentage = ((marks[i]*100)/35).toFixed(2);
+            let Percentage = ((marks[i]*100)/35).toFixed();
             document.querySelector("#percentage").innerHTML = `<b>Percentage:</b> ${Percentage}%`;
             document.querySelector("#status").innerHTML = `Status: ${Status[i]}`;
             found=1;
